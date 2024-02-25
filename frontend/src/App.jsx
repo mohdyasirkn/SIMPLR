@@ -12,9 +12,9 @@ import { PreapareWtihTeam } from "./pages/PrepareWithTeam";
 function App() {
   return (
     <BrowserRouter>
-      <div className="flex h-screen">
+      <div className="">
         <Sidebar />
-        <div className="flex-grow bg-gray-100 p-4">
+        <div className="">
           <Routes>
             <Route path="/" element={<Landing />} />
             <Route path="/convert-and-chat" element={<ConvertAndChat />} />
