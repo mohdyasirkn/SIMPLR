@@ -11,11 +11,11 @@ export const Sidebar = () => {
         </Link>
       </div>
 
-      <Button label="Convert & Chat"></Button>
-      <Button label="Teams"></Button>
-      <Button label="Documents"></Button>
-      <Button label="Planner"></Button>
-      <Button label="Prepare With Team"></Button>
+      <Button label="Convert & Chat" to={"/"}></Button>
+      <Button label="Teams" to={"/teams"}></Button>
+      <Button label="Documents" to={"/documents"}></Button>
+      <Button label="Planner" to={"/planner"}></Button>
+      <Button label="Prepare With Team" to={"/prepare-with-team"}></Button>
 
       <div className="flex justify-center mt-auto p-1 mx-6 mb-4">
         <img
